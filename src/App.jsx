@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FiMenu, FiX, FiStar, FiTrash2, FiCheck } from 'react-icons/fi';
+import heroImage from './assets/hero1.png';
 
 export default function App() {
   const [technologies, setTechnologies] = useState([]);
@@ -153,7 +154,7 @@ export default function App() {
         <div className="flex justify-center">
           <div className="w-full max-w-md h-72 sm:h-96 flex items-center justify-center p-2">
             <img
-              src="./src/assets/hero1.png"
+              src={heroImage}
               alt="Hero Banner"
               className="w-full max-w-md h-auto object-contain drop-shadow-xl"
             />
