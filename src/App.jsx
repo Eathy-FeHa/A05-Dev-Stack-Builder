@@ -153,8 +153,8 @@ export default function App() {
         <div className="flex justify-center">
           <div className="w-full max-w-md h-72 sm:h-96 flex items-center justify-center p-2">
             <img
-              src="./src/assets/banner-stack.png"
-              alt="Banner Stack Illustration"
+              src="./src/assets/hero1.png"
+              alt="Hero Banner"
               className="w-full max-w-md h-auto object-contain drop-shadow-xl"
             />
           </div>
